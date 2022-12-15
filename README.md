@@ -17,7 +17,7 @@ $ sudo apt update
 $ sudo apt install docker docker-compose
 ```
 
-3. sudoなしでdockerコマンドを実行できるようにする
+3. sudoなしでdockerコマンドを実行できるようにする（コマンド実行後に再ログインが必要）
 ```
 $ sudo gpasswd -a $USER docker
 ```
